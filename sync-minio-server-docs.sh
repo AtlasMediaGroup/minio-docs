@@ -38,7 +38,7 @@ function main() {
 
    # API (Renamed from Request)
    # Hopefully ex works the same on both Mac and Linux, unlike sed
-   ex -sc '%s/### Request metrics/### API metrics/' -c 'x' xx01
+  # ex -sc '%s/### Request metrics/### API metrics/' -c 'x' xx01
    mv xx01 source/includes/common-metrics-v3-api.md
 
    # Audit
